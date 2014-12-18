@@ -21,7 +21,7 @@ namespace MailChimp
     /// .NET API Wrapper for the Mailchimp v2.0 API.
     /// More information here: http://apidocs.mailchimp.com/api/2.0/
     /// </summary>
-    public class MailChimpManager
+    public class MailChimpManager : IMailChimpManager
     {
         #region Fields and properties
 
